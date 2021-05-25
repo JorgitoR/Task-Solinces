@@ -29,9 +29,7 @@ const all_instituciones = [{
 			'mujeres':10
 			'hombres':20
 		}]
-	}
-
-	]
+	}]
 
 }]
 
