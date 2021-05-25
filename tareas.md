@@ -20,16 +20,6 @@ const all_instituciones = [{
 			'mujeres':10
 			'hombres':20
 		}]
-	},
-	{
-		"sede":"B",
-		"jornada":"M",
-		"grado":5,
-		Alumnos:[{
-			'mujeres':10
-			'hombres':20
-		}]
-	}]
 
 }]
 
