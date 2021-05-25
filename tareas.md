@@ -7,3 +7,60 @@ Definir los parámetros que la librería necesita para renderizar la gráfica
 - Los parametros que necesitamos son: labels[x] data[y]
 
 Estructura del Json
+
+```json
+const all_instituciones = [{
+
+	"institucion":"La union",
+	SEDE:[{
+		"sede":"A",
+		"jornada":"M",
+		"grado":5,
+		Alumnos:[
+			'mujeres':10
+			'hombres':20
+		]
+	},
+	{
+		"sede":"B",
+		"jornada":"M",
+		"grado":5,
+		Alumnos:[
+			'mujeres':10
+			'hombres':20
+		]
+	}
+
+	]
+
+}]
+
+
+const por_institucion = [{
+
+	"id":2,
+	"institucion": "la union",
+	"sede":"A",
+	"jornada":"M",
+	"grado":"7",
+	Alumnos:[{
+
+		'mujeres':10,
+		'hombres':15
+
+	}]
+
+}]
+
+
+```
+
+
+
+[<img align="left" alt="Jorgito code" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />]
+
+
+[<img align="left" alt="Jorgito code" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />]
+
+
+[<img align="left" alt="Jorgito code" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />]
