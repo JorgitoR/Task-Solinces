@@ -56,7 +56,6 @@ const por_institucion = [{
 ```
 
 
-
-[<img align="left" alt="Generar reportes" width="300px" src="https://i.ibb.co/VvyXTHg/Whats-App-Image-2021-05-25-at-2-47-51-PM-1.jpg" />]
+<img align="left" alt="Generar reportes" width="90%" src="https://i.ibb.co/VvyXTHg/Whats-App-Image-2021-05-25-at-2-47-51-PM-1.jpg" />
 
 
