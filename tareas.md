@@ -8,17 +8,27 @@ Definir los parámetros que la librería necesita para renderizar la gráfica
 
 Estructura del Json
 
-```json
-const all_instituciones = [{
+```jsonconst all_instituciones = [{
 
 	"institucion":"La union",
-	SEDE:[{
+	'SEDE':[{
 		"sede":"A",
 		"jornada":"M",
 		"grado":5,
-		Alumnos:[{
+		'Alumnos':[
 			'mujeres':10
 			'hombres':20
+		]
+	},
+	{
+		"sede":"B",
+		"jornada":"M",
+		"grado":5,
+		'Alumnos':[{
+
+			'mujeres':10
+			'hombres':20
+
 		}]
 	}]
 
@@ -32,7 +42,7 @@ const por_institucion = [{
 	"sede":"A",
 	"jornada":"M",
 	"grado":"7",
-	Alumnos:[{
+	'Alumnos':[{
 
 		'mujeres':10,
 		'hombres':15
@@ -40,7 +50,6 @@ const por_institucion = [{
 	}]
 
 }]
-
 
 ```
 
