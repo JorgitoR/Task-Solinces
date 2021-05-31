@@ -18,7 +18,7 @@ const all_instituciones = [{
 		"jornada":"M",
 		"grado":5,
 		'Alumnos':[
-			'mujeres':10
+			'mujeres':10,
 			'hombres':20
 		]
 	},
@@ -28,7 +28,7 @@ const all_instituciones = [{
 		"grado":5,
 		'Alumnos':[{
 
-			'mujeres':10
+			'mujeres':10,
 			'hombres':20
 
 		}]
@@ -44,7 +44,7 @@ const per_year_per_institucion = [{
 		"jornada":"M",
 		'Alumnos':[{
 
-			'mujeres':10
+			'mujeres':10,
 			'hombres':20
 
 		}]
@@ -55,7 +55,7 @@ const per_year_per_institucion = [{
 		"jornada":"T",
 		'Alumnos':[{
 
-			'mujeres':10
+			'mujeres':10,
 			'hombres':20
 
 		}]
