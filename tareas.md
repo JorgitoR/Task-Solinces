@@ -8,7 +8,7 @@ Definir los parámetros que la librería necesita para renderizar la gráfica
 
 Estructura del Json
 
-```jsonconst all_instituciones = [{
+```json const all_instituciones = [{
 
 	"institucion":"La union",
 	'SEDE':[{
