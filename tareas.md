@@ -49,7 +49,7 @@ const per_year_per_institucion = [{
 
 		}]
 		
-	}]
+	}],
 	
 	"SEDE B":[{
 		"jornada":"T",
