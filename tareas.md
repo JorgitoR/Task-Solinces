@@ -36,6 +36,51 @@ const all_instituciones = [{
 
 }]
 
+const per_year_per_institucion = [{
+	
+	"year":2020,
+	"institucion":"La Union",
+	"SEDE A":[{
+		"jornada":"M",
+		'Alumnos':[{
+
+			'mujeres':10
+			'hombres':20
+
+		}]
+		
+	}]
+	
+	"SEDE B":[{
+		"jornada":"T",
+		'Alumnos':[{
+
+			'mujeres':10
+			'hombres':20
+
+		}]
+	
+	}]
+
+
+
+}]
+
+const por_sede = [{
+     
+     "institucion":"la union",
+     "sede":"A",
+     "jornada":"M",
+     "grado":"7",
+	'Alumnos':[{
+
+		'mujeres':10,
+		'hombres':15
+
+	}]
+
+}]
+
 
 const por_institucion = [{
 
