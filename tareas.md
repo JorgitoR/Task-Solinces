@@ -66,6 +66,20 @@ const per_year_per_institucion = [{
 
 }]
 
+const per_grado = [{
+	
+	"institucion":"la union",
+	"grado": "5",
+	'Alumnos':[{
+
+		'mujeres':10,
+		'hombres':15
+
+	}]
+
+
+}]
+
 const por_sede = [{
      
      "institucion":"la union",
