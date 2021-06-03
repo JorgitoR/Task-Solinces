@@ -9,89 +9,114 @@ Definir los parámetros que la librería necesita para renderizar la gráfica
 Estructura del Json
 
 ```json 
+const all_instituciones = [
 
-const all_instituciones = [{
+	{
 
 	"institucion":"La union",
-	'SEDE':[{
+	"SEDE":[
+		{
 		"sede":"A",
 		"jornada":"M",
 		"grado":5,
-		'Alumnos':[
-			'mujeres':10,
-			'hombres':20
-		]
-	},
+		"Alumnos":[{
+			"mujeres":10,
+			"hombres":20
+			}]
+		},
+
 	{
 		"sede":"B",
 		"jornada":"M",
 		"grado":5,
-		'Alumnos':[{
+		"Alumnos":[
+			{
 
-			'mujeres':10,
-			'hombres':20
+			"mujeres":10,
+			"hombres":20
+			}
+		]
+	}
+	]
 
-		}]
-	}]
-
-}]
+	}
+]
 
 const per_year_per_institucion = [{
 	
 	"year":2020,
 	"institucion":"La Union",
-	"SEDE A":[{
+	"SEDE":[
+		{
+		"sede":"A",
 		"jornada":"M",
-		'Alumnos':[{
+		"Alumnos":[{
 
-			'mujeres':10,
-			'hombres':20
+			"mujeres":100,
+			"hombres":208
 
 		}]
 		
-	}],
-	
-	"SEDE B":[{
-		"jornada":"T",
-		'Alumnos':[{
+		},
 
-			'mujeres':10,
-			'hombres':20
+		{
+		"sede":"B",
+		"jornada":"T",
+		"Alumnos":[{
+
+			"mujeres":107,
+			"hombres":205
 
 		}]
+		
+		},
+
+
+	],
 	
-	}]
-
-
-
 }]
 
 const per_grado = [{
 	
-	"institucion":"la union",
 	"grado": "5",
-	'Alumnos':[{
+	"institucion":"la union",
+	"sede":"A",
+	"Alumnos":[
+		{
 
-		'mujeres':10,
-		'hombres':15
+		"mujeres":10,
+		"hombres":15
 
-	}]
+		},
+
+		{
+			"inactivos":4,
+			"activos":25,
+		}
+	]
 
 
 }]
 
 const por_sede = [{
      
-     "institucion":"la union",
-     "sede":"A",
-     "jornada":"M",
-     "grado":"7",
-	'Alumnos':[{
+    "sede":"A",
+    "institucion":"la union",
+    "jornada":"M",
+    "grado":"7",
+	"Alumnos":[
+		{
 
-		'mujeres':10,
-		'hombres':15
+		"mujeres":10,
+		"hombres":15
 
-	}]
+		},
+
+		{
+			"inactivos":3,
+			"activos":25
+		}
+	]
 
 }]
 
@@ -103,12 +128,19 @@ const por_institucion = [{
 	"sede":"A",
 	"jornada":"M",
 	"grado":"7",
-	'Alumnos':[{
+	"Alumnos":[
+		{
 
-		'mujeres':10,
-		'hombres':15
+		"mujeres":10,
+		"hombres":15
 
-	}]
+		},
+		{
+
+		"inactivos":3,
+		"activos":25
+		}
+	]
 
 }]
 
